@@ -1,0 +1,67 @@
+.createPY {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    left: 10px;
+    margin-top: 30px;
+    width: 300px;
+  
+    input {
+      padding: 5px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      transition: border-color 0.3s ease-in-out;
+    
+        &:focus {
+          outline: none;
+          border-color: #10A19D;
+        }
+    }
+    .remark{
+      height:80px;
+    }
+  
+    select {
+      padding: 5px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 105%;
+    }
+  
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      color: #10A19D;
+      padding: 10px;
+      border: 2px solid #10A19D;
+      border-radius: 5px;
+      width: 40%;
+      margin-left: 225px;
+      margin-top: 20px;
+      font-weight: bold;
+  
+      &:hover {
+        background-color: #10A19D;
+        color: #ffffff;
+        transition-duration: 0.2s;
+      }
+    }
+    label{
+      width: 100%;
+      font-size: 14px;
+    }
+
+}
+  
+.error{
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }

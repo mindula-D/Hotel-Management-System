@@ -1,0 +1,22 @@
+
+.checkout{
+    display: flex;
+
+    .container{
+        flex: 6;
+
+        .title{
+          color: #10A19D;
+          display: flex;
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .form{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    }
+}

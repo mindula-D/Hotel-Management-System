@@ -1,0 +1,29 @@
+
+.assignJob{
+    display: flex;
+
+    .container{
+        flex: 6;
+
+        .title{
+          color: #10A19D;
+          display: flex;
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        h2{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 50px;
+        }
+
+        .form{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    }
+}

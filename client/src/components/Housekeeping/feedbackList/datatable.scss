@@ -1,0 +1,72 @@
+.datatable {
+  height: 390px;
+  padding: 10px;
+  width: 98%;
+  margin-top: -10px;
+  
+  .datatableTitle{
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link{
+      text-decoration: none;
+      background-color: #ffffff;
+      color: #10A19D;
+      font-size: 16px;
+      font-weight: 400;
+      border: 2px solid #10A19D;
+      padding: 5px;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #10A19D;
+        color: #ffffff;
+        transition-duration: 0.2s;
+      }
+    }
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .updateButton {
+      padding: 5px 8px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 1px dotted rgba(0, 0, 139, 0.596);
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 139, 0.1);
+        transition-duration: 0.3s;
+      }
+    }
+    
+    .deleteButton {
+      padding: 5px 5px;
+      border-radius: 5px;
+      color: crimson;
+      border: 1px dotted rgba(220, 20, 60, 0.6);
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 0, 0, 0.05);
+        transition-duration: 0.3s;
+      }
+    }
+  }
+}
+    .search{
+      width: 300px;
+      height: 30px;
+      margin-bottom: 20px;
+    }

@@ -1,0 +1,66 @@
+.reportTable{
+    height: 400px;
+    padding: 10px;
+    width: 98%;
+
+    .reportTableTitle{
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .link{
+            text-decoration: none;
+            position: absolute;
+            top: 270px;
+            right: 50px;
+            color: green;
+            font-size: 16px;
+            font-weight: 400;
+            border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+
+
+        }
+    }
+
+    
+
+    
+
+    .cellAction{
+        display: flex;
+        align-items:center;
+        gap:10px;
+
+        .viewButton{
+          
+            border-radius: 5px;
+            color:darkblue;
+            border: 2px double rgba(0,0,139,0.596);
+            cursor: pointer;
+            
+        }
+
+
+         .updateButton {
+             border-radius: 5px;
+             color: darkgreen; /* change color to green */
+             border: 2px double rgba(17, 138, 8, 0.622);
+             cursor: pointer;
+  }
+  
+
+
+
+  
+}
+
+
+}

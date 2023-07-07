@@ -1,0 +1,29 @@
+
+.displayHome{
+    display: flex;
+
+    .container{
+        flex: 6;
+
+        .title{
+          color: #10A19D;
+          display: flex;
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+        }
+
+    .description{
+        .p1{
+
+          font-size: large;
+          font-family:  monospace;
+          color: rgb(42, 21, 232);
+          padding: 10px;
+          font-weight: 300;
+          align-items: center;
+        }
+      }
+
+    }
+}

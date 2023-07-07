@@ -1,0 +1,186 @@
+// .datatablee{
+//     height: 600px;
+//     padding: 20px;
+//     width:935px;
+  
+
+//     .datatableTitle{
+//         width: 100%;
+//         font-size: 24px;
+//         color: gray;
+//         margin-bottom: 10px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+
+
+//         .link{
+//             text-decoration: none;
+//             color: green;
+//             font-size: 16px;
+//             font-weight: 400;
+//             border: 1px solid green;
+//             padding: 5px;
+//             border-radius: 5px;
+//             cursor: pointer;
+
+
+//         }
+//     }
+
+//     .cellWithImg{
+//         display: flex;
+//         align-items: center;
+
+//         .cellImg{
+//             width: 32px;
+//             height: 32px;
+//             border-radius: 50%;
+//             object-fit: cover;
+//             margin-right: 20px;
+
+//         }
+
+//     }
+
+//     .cellWithStatus{
+//         padding: 5px;
+//         border-radius: 5px;
+
+
+//         &.active{
+//             background-color: rgba(0,128,0,0.05);
+//             color:green;
+//         }
+
+//         &.pending{
+//             background-color: rgba(225,217,0,0.05);
+//             color:goldenrod;
+//         }
+
+//         &.passive{
+//             background-color: rgba(225,0,0,0.05);
+//             color:crimson;
+//         }
+//     }
+
+
+//     .cellAction{
+//         display: flex;
+//         align-items:center;
+//         gap:12px;
+
+//         .viewButton{
+          
+//             border-radius: 5px;
+//             color: darkblue;
+//             border: 1px dotted rgba(0,0,139,0.596);
+//             cursor: pointer;
+            
+//         }
+
+//         .deleteButton{
+
+//             border-radius: 5px;
+//             color: crimson;
+//             border: 1px dotted rgba(220, 20, 60, 0.6);
+//             cursor: pointer;
+            
+//         }
+//     }
+
+
+// }
+.datatableKT2 {
+    height: 350px;
+    padding: 10px;
+    width: 98%;
+    margin-top: -10px;
+    
+    .datatableTitle{
+      width: 100%;
+      font-size: 30px;
+      color: gray;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .link{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #10A19D;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #10A19D;
+        padding: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #10A19D;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }
+    }
+  
+    .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      .updateButton {
+        text-decoration: none;
+        padding: 5px 8px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(0, 0, 139, 0.1);
+          transition-duration: 0.3s;
+        }
+      }
+      
+      .deleteButton {
+        padding: 5px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(255, 0, 0, 0.05);
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+      .search{
+        width: 300px;
+        height: 30px;
+        margin-bottom: 20px;
+      }
+  
+      .export{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #10A19D;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #10A19D;
+        padding: 5px;
+        margin: 10px;
+       // margin-left: 50%;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #10A19D;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }

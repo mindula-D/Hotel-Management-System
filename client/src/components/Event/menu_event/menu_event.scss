@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+
+    .addEvent,.feeBaseActivities,.genarateReport,.recordTable{
+        background-color: #fff;
+        color: #10A19D;
+        border: 3px solid #10A19D;
+        padding: 10px;
+        font-weight: bold;
+        width: max-content;
+        margin-bottom: 10px;
+
+        &:hover{
+            background-color: #10A19D;
+            color: #fff;
+            transition-duration: 0.2s;
+        }
+
+       
+    }
+
+    .active{
+        background-color: #10A19D;
+        color: #fff;
+
+        
+    }
+   
+
+    
+}
